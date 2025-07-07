@@ -27,7 +27,11 @@ personal(){
     local pname=$1
     local pdob=$2
     local page=$3
+<<<<<<< HEAD
     
+=======
+    echo "My Personal details "
+>>>>>>> 78e9647e44cd9d4e4e491e814c928c49b7e0d900
     echo "My Name           : $pname"
     echo "My Date of Birth  : $pdob"
     echo "$pname age is      : $page years"
