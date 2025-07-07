@@ -5,3 +5,5 @@ echo "Enter Second Number :"
 read b
 sum=$((a + b))
 echo "Sum is : $sum"
+echo"hai"
+
