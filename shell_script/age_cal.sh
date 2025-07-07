@@ -2,6 +2,7 @@
 
 # Set both persons' names and DOBs
 setVariables(){
+    echo "Variables"
     NAME="vignesh"
     DOB="1999-12-21"
 
@@ -26,7 +27,7 @@ personal(){
     local pname=$1
     local pdob=$2
     local page=$3
-
+    
     echo "My Name           : $pname"
     echo "My Date of Birth  : $pdob"
     echo "$pname age is      : $page years"
